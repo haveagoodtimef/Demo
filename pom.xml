@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fhz</groupId>
+  <artifactId>ssh</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <!-- 导入包的版本比较低,目前是会用即可,会有更好的方法来替代.. -->
+  <dependencies>
+	
+	 <dependency>
+	  <groupId>Junit</groupId>
+	  <artifactId>junit</artifactId>
+	  <version>4.12</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>mysql</groupId>
+	  <artifactId>mysql-connector-java</artifactId>
+	  <version>5.1.2</version>
+	</dependency>
+    
+    <dependency>
+	  <groupId>org.hibernate</groupId>
+	  <artifactId>hibernate-core</artifactId>
+	  <version>3.6.9.Final</version>
+	</dependency>
+	
+	<!-- 
+		Javassist是一个开源的分析、编辑和创建Java字节码的类库。
+		为JBoss实现动态"AOP"框架。-->
+	 
+	<dependency>
+	  <groupId>javassist</groupId>
+	  <artifactId>javassist</artifactId>
+	  <version>3.8.0.GA</version>
+	</dependency>
+	
+	<!-- 
+		SLF4J，即简单日志门面（Simple Logging Facade for Java）
+		不是具体的日志解决方案，它只服务于各种各样的日志系统。-->
+	 
+	<dependency>
+	  <groupId>org.slf4j</groupId>
+	  <artifactId>slf4j-simple</artifactId>
+	  <version>1.7.7</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>org.apache.logging.log4j</groupId>
+	  <artifactId>log4j-core</artifactId>
+	  <version>2.8.1</version>
+	</dependency>
+	
+	<!-- 数据库连接池 -->    
+	<dependency>
+	  <groupId>c3p0</groupId>
+	  <artifactId>c3p0</artifactId>
+	  <version>0.9.1.1</version>
+	</dependency>
+	<!-- spring整合hibernate包 -->
+    <dependency>
+	  <groupId>org.springframework</groupId>
+	  <artifactId>spring-orm</artifactId>
+	  <version>3.2.7.RELEASE</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>org.springframework</groupId>
+	  <artifactId>spring-web</artifactId>
+	  <version>3.2.8.RELEASE</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>commons-logging</groupId>
+	  <artifactId>commons-logging</artifactId>
+	  <version>1.2</version>
+	</dependency>
+	
+    </dependencies>
+  
+</project>
