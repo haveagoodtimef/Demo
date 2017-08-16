@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+ classpath:mapper/ProjectMapper.xml
+ -->
+<mapper namespace="com.fhz.dao.ProjectDao">
+
+  <!-- 查询项目信息 -->
+  <select id="findObjects"  resultType="com.fhz.entity.Project">
+      select * from tms_projects;
+  </select>
+  
+  
+</mapper> 
+
+
+
+
